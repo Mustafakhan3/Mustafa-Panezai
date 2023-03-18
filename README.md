@@ -27,7 +27,7 @@ data science work
                                                                              <p> Data-science uses scientific methods and processes It is a combination of mathematics, statistics, computer science, and domain knowledge. data science is used to gain data about a specific topic .
 key elements of data science:
                                                                                 <li> statical analysis </li>
-                                                                             <li>machine learning<li> <li>data visualization</li>  <li>data decision making </li>
+                                                                             <li>machine learning</li> <li>data visualization</li>  <li>data decision making </li>
                                                                                                                                
    
                                                                                                                              
