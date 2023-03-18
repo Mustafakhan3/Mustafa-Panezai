@@ -34,7 +34,17 @@
      <h1> Processes of Data-science </h1>                                           <p> <li> Data-collection </li> 
    <li> data cleansing and preprocessing </li>                                          <li> statical analysis and modeling </li>                                                         
     <li> maching learning and predictive modeling </li>                                      <li> data visualization and communication </li>                                            
-  <li> developing data-driven solutios to real world problems <li/> 
+  <li> developing data-driven solutios to real world problems </li> 
+  
+  <h1> Data science Skills </h1>
+  <p> these skills required to make career in data-science.
+  <li> analytical and critical  thinking. </li>
+    <li> problem-solving </li>
+      <li> programming and data-manipulation </li>
+        <li> statical knowledge and modeling </li>
+          <li> maching learning and ai knowledge </li>
+  </p>
+  
                                                                                                                              
 
                                                                                                                                   
