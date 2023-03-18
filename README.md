@@ -54,6 +54,9 @@
           <li> big data architect </li>
   </p>
   
+  <h1> Conclusion </h1>
+  <p> every project or work that we will be dealing with need a bunch of data to collect first and after that we can work on that data .data-science helos us to make our data collection method easy.by applying all the processes of data science things can be easy for making and research on specific project.
+  
                                                                                                                              
 
                                                                                                                                   
