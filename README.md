@@ -45,6 +45,15 @@
           <li> maching learning and ai knowledge </li>
   </p>
   
+   <h1> Career opportunities </h1>
+  <p> 
+  <li> data-analyst </li>
+    <li> data scientist </li>
+      <li> maching learning engineer </li>
+        <li> business inteligent analyst </li>
+          <li> big data architect </li>
+  </p>
+  
                                                                                                                              
 
                                                                                                                                   
