@@ -31,8 +31,10 @@
 <h1>  Importance of datascience </h1>
 <p> ◦ The amount of data being generated is growing exponentially.data science helps us to make informed decisions. </p>
 <p> examples of industries that use data science is (health-care,finance,marketing and technology </p>
-                                                                                                                               
-   
+     <h1> Processes of Data-science </h1>                                           <p> <li> Data-collection <li/> 
+   <li> data cleansing and preprocessing <li/>                                          <li> statical analysis and modeling <li/>                                                         
+    <li> maching learning and predictive modeling <li/>                                      <li> data visualization and communication <li/>                                            
+  <li> developing data-driven solutios to real world problems <li/> 
                                                                                                                              
 
                                                                                                                                   
