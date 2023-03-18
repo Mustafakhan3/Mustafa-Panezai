@@ -1,5 +1,4 @@
-# Mustafa-Panezai
-data science work
+
 
 <h1 align="center">Hi 👋, I'm Mustafa Panezai</h1>
 <h3 align="center">Student and A passionate frontend developer from Pakistan</h3>
@@ -28,6 +27,10 @@ data science work
 <p> key elements of data science:</P>
                                                                                 <li> statical analysis </li>
                                                                              <li>machine learning</li> <li>data visualization</li>  <li>data decision making </li>
+                                                                             
+<h1>  Importance of datascience </h1>
+<p> ◦ The amount of data being generated is growing exponentially.data science helps us to make informed decisions. </p>
+<p> examples of industries that use data science is (health-care,finance,marketing and technology </p>
                                                                                                                                
    
                                                                                                                              
