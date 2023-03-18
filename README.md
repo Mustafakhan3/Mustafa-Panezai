@@ -20,8 +20,9 @@ data science work
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mustafakhan3&show_icons=true&locale=en&layout=compact" alt="mustafakhan3" /></p>
 
-<h1 Introduction to Data-Science </h1>
-<p> hello world <p/>
+
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mustafakhan3&show_icons=true&locale=en" alt="mustafakhan3" /></p>
 
+<h1 Introduction to Data-Science </h1>
+<p> hello world <p/>
