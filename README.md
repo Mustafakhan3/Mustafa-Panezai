@@ -23,9 +23,8 @@ data science work
 
 <p>&nbsp;<img  src="https://github-readme-stats.vercel.app/api?username=mustafakhan3&show_icons=true&locale=en" alt="mustafakhan3" /></p>
 
-<p>
-          Introduction to datascience
+<p align = "center"  Introduction to datascience </p>
    
-                                                                                                                                  /></p>
+                                                                                                                             
 
                                                                                                                                   
