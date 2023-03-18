@@ -24,4 +24,4 @@ data science work
 
 <p>&nbsp;<img  src="https://github-readme-stats.vercel.app/api?username=mustafakhan3&show_icons=true&locale=en" alt="mustafakhan3" /></p>
 
-                        <h2> align="center"Data Science</h2>
+                        <h3 align="center"Data Science</h3>
