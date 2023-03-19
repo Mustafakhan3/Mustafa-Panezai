@@ -24,7 +24,7 @@
 
 <h1>  Introduction to datascience </h1>
    <p> Data-science is a collection of  scientific methods and processes It is a combination of mathematics, statistics, computer science, and domain knowledge. data science is used to gain data about a specific topic .</p>
-<p> key elements of data science:</
+  <p> key elements of data science:</p>
   <li> statical analysis </li>
  <li>machine learning</li> <li>data visualization</li>  <li>data decision making </li>
                                                                              
