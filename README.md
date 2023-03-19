@@ -23,17 +23,20 @@
 <p>&nbsp;<img  src="https://github-readme-stats.vercel.app/api?username=mustafakhan3&show_icons=true&locale=en" alt="mustafakhan3" /></p>
 
 <h1>  Introduction to datascience </h1>
-                                                                             <p> Data-science uses scientific methods and processes It is a combination of mathematics, statistics, computer science, and domain knowledge. data science is used to gain data about a specific topic .</p>
-<p> key elements of data science:</P>
-                                                                                <li> statical analysis </li>
-                                                                             <li>machine learning</li> <li>data visualization</li>  <li>data decision making </li>
+   <p> Data-science is a collection of  scientific methods and processes It is a combination of mathematics, statistics, computer science, and domain knowledge. data science is used to gain data about a specific topic .</p>
+<p> key elements of data science:</
+  <li> statical analysis </li>
+ <li>machine learning</li> <li>data visualization</li>  <li>data decision making </li>
                                                                              
 <h1>  Importance of datascience </h1>
-<p> ◦ The amount of data being generated is growing exponentially.data science helps us to make informed decisions. </p>
+<p> ◦ if we take from a small project.first we need the details of the project that we will be going to make .without any data we cannot make that project.so data science plays major role in any thing or research we have to study different theories and collect that data from them . </p>
 <p> examples of industries that use data science is (health-care,finance,marketing and technology </p>
-     <h1> Processes of Data-science </h1>                                           <p> <li> Data-collection </li> 
-   <li> data cleansing and preprocessing </li>                                          <li> statical analysis and modeling </li>                                                         
-    <li> maching learning and predictive modeling </li>                                      <li> data visualization and communication </li>                                            
+     <h1> Processes of Data-science </h1>  
+     <p> <li> Data-collection </li> 
+   <li> data cleansing and preprocessing </li>                                         
+    <li> statical analysis and modeling </li>                                                         
+    <li> maching learning and predictive modeling </li>                  
+     <li> data visualization and communication </li>                                            
   <li> developing data-driven solutios to real world problems </li> 
   
   <h1> Data science Skills </h1>
@@ -46,7 +49,7 @@
   </p>
   
    <h1> Career opportunities </h1>
-  <p> 
+  <p> in todays world if we see everything needs for starting anything they must have a background of this thing that they wil be making.
   <li> data-analyst </li>
     <li> data scientist </li>
       <li> maching learning engineer </li>
