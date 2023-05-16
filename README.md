@@ -76,6 +76,9 @@
 In Python, a dictionary is a built-in data type that represents a collection of key-value pairs. It is also known as an associative array or a hash map in other programming languages. Dictionaries are mutable, unordered, and indexed containers.
 
 Each element in a dictionary consists of two parts: a key and a corresponding value.
+   # More on strings
+   
+String formatting in Python refers to the process of constructing strings by inserting values into predefined placeholders within the string. It allows you to create dynamic strings that incorporate variables, expressions, or other values.
    
   
                                                                                                                              
