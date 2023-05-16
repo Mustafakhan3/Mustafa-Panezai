@@ -71,7 +71,11 @@
    list  which is a mutable data-structure.we studied about that how to show a spicific word location from there by using x[0] suppose.in that section we have also studied about append which is used to add an object to a list string or integer.
    we have also studied about the while how it can be used and how to perform different operation or add different logics form it.
    we have studied about concatenation of a list mean to combine to list together .also studied about the '*' sign means 
-   to check whether a specific string or int is in the the list.
+   to check whether a specific string or int is in the the list.in that topic we have also studied the slicing concept by using the bracket notation .we tell the staring index and the ending index if necessory and then it shows only those results.
+   also in that section we studied about the the split concept which returns all the words in a string or it will remain on specific charachter.we studied also about the dictionaries.
+In Python, a dictionary is a built-in data type that represents a collection of key-value pairs. It is also known as an associative array or a hash map in other programming languages. Dictionaries are mutable, unordered, and indexed containers.
+
+Each element in a dictionary consists of two parts: a key and a corresponding value.
    
   
                                                                                                                              
