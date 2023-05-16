@@ -66,6 +66,12 @@
    and then we gave it the name we want ,braces then we have the choice that either we have parameters in it or make it empty and after that we use ':' this sign and then the main section comes here we write the code or logic we want to make.
    
    # Types and Sequences:
+   Type is used to return the object type means that it tells us that whether it is int,float etc .in the sequences
+   section we have started from tuples which is immutable datastructure how to create tuples.after that we have studied about the 
+   list  which is a mutable data-structure.we studied about that how to show a spicific word location from there by using x[0] suppose.in that section we have also studied about append which is used to add an object to a list string or integer.
+   we have also studied about the while how it can be used and how to perform different operation or add different logics form it.
+   we have studied about concatenation of a list mean to combine to list together .also studied about the '*' sign means 
+   to check whether a specific string or int is in the the list.
    
   
                                                                                                                              
