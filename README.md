@@ -79,7 +79,8 @@ Each element in a dictionary consists of two parts: a key and a corresponding va
    # More on strings
    
 String formatting in Python refers to the process of constructing strings by inserting values into predefined placeholders within the string. It allows you to create dynamic strings that incorporate variables, expressions, or other values.
-   
+   # Reading and Writting CSV files:
+   suppose if we have a large dataset which is in excel.for importing that data into out code we use the csv concept .first we import it  the we give the location where the data is stored and then we dictreader which has read in each row of the csv file.len concepts tell that our list is made up of many dictionaries.keys concept gives us the column names of our csv.in that section we studied the 'set' which returns unique values for our class types in dataset.
   
                                                                                                                              
 
