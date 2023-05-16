@@ -61,6 +61,12 @@
   <p> every project or work that we will be dealing with  a bunch of data to collect first and after that we can work on that data .data-science helos us to make our data collection method easy.by applying all the processes of data science things can be easy for making and research on specific project.
    
    # PYTHON PROGRAMMING LANGUAGE
+   # Functions
+   we have studied about the functions.for creating of functions we write def which means that it is user made
+   and then we gave it the name we want ,braces then we have the choice that either we have parameters in it or make it empty and after that we use ':' this sign and then the main section comes here we write the code or logic we want to make.
+   
+   # Types and Sequences:
+   
   
                                                                                                                              
 
