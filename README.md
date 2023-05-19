@@ -96,7 +96,9 @@ String formatting in Python refers to the process of constructing strings by ins
    #Array-Operations
    we can do many array operation like the addition subtraction exponents and as well as boolean arrays,inverse etc.for addition we have to declare two arrays and by defining the variables and then using  '-' this minus inbetween the two variables subtraction we be done.multiplication can also be done by using the * sign  between the two declared array variables.if we want to do element wise manipulation we use the * sign and if we want to do product wise manipulation we use the @ sign.shape function will help us to find the inner dimensions of the array.we can also find the dtype of array by using the var name of array and writting the dtype with it.numpy arrays have many intresting agregation functions on them such as sum(),max(),min(),mean().sum used for addition and max used for finding the maximum number in the  array.min for minumber number in the array.
    # Indexing,Slicing and Iterating
-   
+   # Indexing
+   first lets look at integer indexing. to get an element in one dimensional array we use the offset value a[2[.
+   but for multidimensional array we use integer array indexing for finding certain value in multidimensional array we have to use indexing like a[1,1] wher first shows the rows and second shows the column of which one to select.
    
    
   
