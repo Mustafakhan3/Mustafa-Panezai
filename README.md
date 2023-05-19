@@ -86,6 +86,11 @@ String formatting in Python refers to the process of constructing strings by ins
    we can use the python dates and time for checking the current date and time.we import date and time from python libraries and by giving the specific function name we can find the date and time .
    for-example:
    date.today return the current date and alot more we can use.
+   
+   # Numpy
+   We have studied the numpy packkage in python.this numpy helps us to create powerfull ways to create,store and manipulate our data.it makes it speedy to integrate with a wide variety of databases.
+   
+   
   
                                                                                                                              
 
