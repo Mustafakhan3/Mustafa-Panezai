@@ -88,7 +88,11 @@ String formatting in Python refers to the process of constructing strings by ins
    date.today return the current date and alot more we can use.
    
    # Numpy
-   We have studied the numpy packkage in python.this numpy helps us to create powerfull ways to create,store and manipulate our data.it makes it speedy to integrate with a wide variety of databases.
+   We have studied the numpy packkage in python.this numpy helps us to create powerfull ways to create,store and manipulate our data.it makes it speedy to integrate with a wide variety of databases.also the foundation that pandas is built.numpy package helps us to create arrays ,selecting elements of arrays and loading the dataset into the array.
+   # Array-Creation
+   array can be diplayed like a list or a list of lists we pass in a list as argument in array.
+   we can display the by first importing the numpy package and then we have to declare the variable we want and equal it to, and then square braces and the values and inserting it into it.
+   for using multidimentsional array we have to use the double time square braces and passing the value into it.we can find the datatype the array elements by using the 'dtype' in it.by using shape attribute we can find the length of each dimension by calling the shape attribute.
    
    
   
