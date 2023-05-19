@@ -98,8 +98,12 @@ String formatting in Python refers to the process of constructing strings by ins
    # Indexing,Slicing and Iterating
    # Indexing
    first lets look at integer indexing. to get an element in one dimensional array we use the offset value a[2[.
-   but for multidimensional array we use integer array indexing for finding certain value in multidimensional array we have to use indexing like a[1,1] wher first shows the rows and second shows the column of which one to select.
+   but for multidimensional array we use integer array indexing for finding certain value in multidimensional array we have to use indexing like a[1,1] wher first shows the rows and second shows the column of which one to select.if we want to select multiple elements from array we can enter the indices directly into an array function.
+   # Boolean Indexing
+   boolean indexing allows us to select arbitrary elements based on conditions .if we want to get elements greater than 5 we will use the greater sigh a>5 .this will help us that the the value should be greater than 5.
    
+   # Slicing
+   slicing is a way to create a subarray based on the original array .to slice we use the : this sign .for examole if we want elements starting from index 2 and ending on index 4 we will use this command a[2:4].if we add another argument to the array a[:2,1:3] we get the first two rows and then the second and third column values only.
    
   
                                                                                                                              
