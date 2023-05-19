@@ -105,7 +105,8 @@ String formatting in Python refers to the process of constructing strings by ins
    # Slicing
    slicing is a way to create a subarray based on the original array .to slice we use the : this sign .for examole if we want elements starting from index 2 and ending on index 4 we will use this command a[2:4].if we add another argument to the array a[:2,1:3] we get the first two rows and then the second and third column values only.
    
-  
+  # Trying Numpy with datasets
+   we have learned the essentials of numpy lets use it on a couplle of datasets.to load a dataset in numpy we will use the genfromtxt we can also spicify datafile name ,delimeter
                                                                                                                              
 
                                                                                                                                   
