@@ -113,6 +113,9 @@ wines[:, 0:3]. What if we want several non-consecutive columns? We can place the
 wines[:, [0,2,4]]. Recall boolean masking. We can use this to find out how many students have had research experience by
  creating a boolean mask and passing it to the array indexing operator
 len(graduate_admission[graduate_admission['Research'] == 1])
+   
+   # Pandas Introduction
+   lets look at the way that how to python can be used to manipulate clean and also query data by talking pandas toolkit.pandas created by wes Mckinny in 2008.pandas is a open source project under under a very permissive license.as an open source pandas has got a strong community.with many software developers all making code to help make it better.before pandas we have a hodge podge of tools numpy,the python core libraries.i want to introduce stack overflow pandas uses it as the number one resource for helping new members .if you post a question related to python or pandas the pandas community will respond and the will be given to your question.second resource you can use is that the book.wes mckinny wrote the book called pyrhon for data analysis and published by o'reilly and its recently updated to second verion.i consider this book to look for it.
                                                                                                                              
 
                                                                                                                                   
