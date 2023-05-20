@@ -126,5 +126,11 @@ len(graduate_admission[graduate_admission['Research'] == 1])
    now we just have to call the series 
    pd.series(students)
    
+   we see that the values are indexed with integers starting at zero.also the result is a series object and is nicely rendered to the screen .pandas has atomatically identified the type of data in the series as object..
+   if we passed in a list of whole numbers we see that pandas sets the type to int34.
+   for example=
+   numbers = [1,2,3]
+   turn it into series 
+   pd.series(numbers)
 
                                                                                                                                   
