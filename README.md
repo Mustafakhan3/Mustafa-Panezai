@@ -132,5 +132,25 @@ len(graduate_admission[graduate_admission['Research'] == 1])
    numbers = [1,2,3]
    turn it into series 
    pd.series(numbers)
-
+the result we see here is a type of int64 objects.
+   there is some other details that exit is that how pandas and python handle missing data.in python we can have a none type to indicate lack of data.consider if we have a string series of list and we add one none value in it then pandas inserts is as a none type and the type object for it.
+   4students=['alice','jack','mustafa',none]
+pd.series(students)
+   if wwe create a list of integers and floats pandas converts this into floating point value known as nan standas for not a number see the below example
+   numbers=[1,2,None]
+   pd.Series(numbers)
+   output is nan and the dtype is float64.
+   if we try equality test nan is not equal to none 
+   np.nan==np.none the result is false
+if we do the equality test to itselt it will result in false.
+   np.nan== np.nan
+   
+   instead we have to use special functions to test the presence of not a number 
+   np.isnan(np.nan)
+   both meaning is similar but its numeric value and treated differently.
+   we can also create a series with dictionary and the index will be automatically assigned to it.
+   students_score = {'alice':'physics',
+                      'jack' :'physics'}
+   s=pd.series(students_scores)
+   
                                                                                                                                   
