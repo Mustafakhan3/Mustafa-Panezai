@@ -172,14 +172,14 @@ represents a row of data.
 
  Then we pass this list of dictionaries into the DataFrame function
 df = pd.DataFrame(students, index=['school1', 'school2', 'school1'])
-# And lets print the head again
+ And lets print the head again
 df.head()
    by using the df.head() helps us to show several rows of the dataframe.
    we can etract the data using the loc and iloc attribute.passing a single value to the loc will return the series if there is only one row to return.
    if we wanted data associated with school2 we can just use the .loc attribute with one paramenter.
    df.loc["school"} suppose.# What would we do if we just wanted to select a single column though? Well, there are a few
-# mechanisms. Firstly, we could transpose the matrix. This pivots all of the rows into columns
-# and all of the columns into rows, and is done with the T attribute "df.T".
+ mechanisms. Firstly, we could transpose the matrix. This pivots all of the rows into columns
+ and all of the columns into rows, and is done with the T attribute "df.T".
    
    
                                                                                                                                   
