@@ -182,7 +182,7 @@ df.head()
  and all of the columns into rows, and is done with the T attribute "df.T". Since the result of using the indexing operator is either a DataFrame or Series, you can chain 
  operations together. For instance, we can select all of the rows which related to school1 using
  .loc, then project the name column from just those rows
-df.loc['school1']['Name']
+df.loc['school1']['Name'].the .loc alos supports slicing.If we wanted to select all rows, we can use a colon to indicate a full slice from beginning to end. df.loc[:,['Name', 'runs']].let's talk about dropping data.it's easy to delete data in series and dataframes we can use the drop function to drop data from it.df.drop('school1').we can make the copy of the dataframe using .copy() function.copy_df = df.copy().we can also add a new colomn to the dataframe is as easy as assigning it to the value using the indexing operator.df['ClassRanking'] = None
    
    
                                                                                                                                   
