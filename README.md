@@ -153,6 +153,33 @@ if we do the equality test to itselt it will result in false.
                       'jack' :'physics'}
    s=pd.series(students_scores)
    
+   # The Data-Frame
+   it is the heart of pandas library it's work is to data-analysis and cleaning tasks.it's a two dimensional series object where there is an index and multiple columns of content. \n 
+   import pandas as pd
+students = [{'Name': 'Alice',
+              'Class': 'Physics',
+              'Score': 85},
+            {'Name': 'Jack',
+             'Class': 'Chemistry',
+             'Score': 82},
+            {'Name': 'Helen',
+             'Class': 'Biology',
+             'Score': 90}]
+   one method is that you could use a list of dictionaries, where each dictionary 
+represents a row of data.
+
+
+
+ Then we pass this list of dictionaries into the DataFrame function
+df = pd.DataFrame(students, index=['school1', 'school2', 'school1'])
+# And lets print the head again
+df.head()
+   by using the df.head() helps us to show several rows of the dataframe.
+   we can etract the data using the loc and iloc attribute.passing a single value to the loc will return the series if there is only one row to return.
+   if we wanted data associated with school2 we can just use the .loc attribute with one paramenter.
+   df.loc["school"} suppose.# What would we do if we just wanted to select a single column though? Well, there are a few
+# mechanisms. Firstly, we could transpose the matrix. This pivots all of the rows into columns
+# and all of the columns into rows, and is done with the T attribute "df.T".
    
    
                                                                                                                                   
