@@ -179,7 +179,10 @@ df.head()
    if we wanted data associated with school2 we can just use the .loc attribute with one paramenter.
    df.loc["school"} suppose.# What would we do if we just wanted to select a single column though? Well, there are a few
  mechanisms. Firstly, we could transpose the matrix. This pivots all of the rows into columns
- and all of the columns into rows, and is done with the T attribute "df.T".
+ and all of the columns into rows, and is done with the T attribute "df.T". Since the result of using the indexing operator is either a DataFrame or Series, you can chain 
+ operations together. For instance, we can select all of the rows which related to school1 using
+ .loc, then project the name column from just those rows
+df.loc['school1']['Name']
    
    
                                                                                                                                   
