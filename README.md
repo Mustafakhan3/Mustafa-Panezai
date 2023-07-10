@@ -260,4 +260,31 @@ df.isnull().sum(): This command calculates the number of missing values in each 
 df.duplicated().sum(): This command counts the number of duplicated rows in the DataFrame. Duplicated rows are those that have identical values across all columns. It helps identify and handle duplicate records in the dataset.
 
 df.corr(): This command calculates the correlation between the numeric columns in the DataFrame. Correlation measures the strength and direction of the linear relationship between two variables. The result is a correlation matrix, which shows the correlation coefficients between each pair of numeric columns. It helps identify relationships and dependencies between variables.
-                                                                                                                                  
+# Univariate Analysis
+pd.read_csv('datasets/titanic.csv'): This command reads a CSV file named 'titanic.csv' and loads it into a pandas DataFrame called 'df'. The DataFrame is a tabular data structure that allows you to work with the data in a convenient way.
+
+df.shape: This command returns the dimensions of the DataFrame, i.e., the number of rows and columns. It gives you an idea of how many data points and variables are present in the dataset.
+
+df.info(): This command provides information about the DataFrame, including the column names, the data type of each column, and the number of non-null values. It also gives you an overview of the memory usage.
+
+df.isnull().sum(): This command calculates the number of missing values in each column of the DataFrame. It returns a series that shows the count of null values for each column. It helps identify which columns have missing data.
+
+df.duplicated().sum(): This command counts the number of duplicated rows in the DataFrame. Duplicated rows are those that have identical values across all columns. It helps identify and handle duplicate records in the dataset.
+
+df.corr(): This command calculates the correlation between the numeric columns in the DataFrame. Correlation measures the strength and direction of the linear relationship between two variables. The result is a correlation matrix, which shows the correlation coefficients between each pair of numeric columns. It helps identify relationships and dependencies between variables.
+
+df = df.where(pd.notnull(df['Embarked']), axis=0).dropna(axis=0): This command replaces missing values in the 'Embarked' column with the value 'NaN' and then removes rows that contain any missing values in the DataFrame. It helps clean the data by handling missing values.
+
+df = df.drop("Cabin", axis=1): This command removes the 'Cabin' column from the DataFrame. It helps eliminate a column that may not be relevant for analysis.
+
+df["Parch"].unique(): This command returns an array of unique values in the 'Parch' column. It helps identify the different categories or levels present in that column.
+
+sns.countplot(df['Embarked']): This command creates a countplot using the 'Embarked' column from the DataFrame. It shows the count of occurrences for each category in a categorical variable.
+
+df['Survived'].value_counts().plot(kind='bar'): This command creates a bar plot to visualize the count of values in the 'Survived' column. It helps understand the distribution or frequency of a binary variable.
+
+df['Sex'].value_counts().plot(kind='pie', autopct='%.2f'): This command creates a pie chart to visualize the proportions of different categories in the 'Sex' column. It helps show the relative frequencies of categorical data.
+
+sns.histplot(df['Age'], bins=10): This command creates a histogram to visualize the distribution of values in the 'Age' column. It helps understand the spread and frequency of numerical data.
+
+sns.boxplot(df['Age']): This command creates a boxplot to visualize the distribution and identify outliers in the 'Age' column. It helps understand the range, median, and quartiles of numerical data.
