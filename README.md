@@ -224,6 +224,14 @@ By converting the grades to an ordered categorical type, we establish a natural 
 Next, we explore the concept of dummy variables. These are binary columns that indicate the presence or absence of a category. The get_dummies() function in pandas converts a single column into multiple columns of zeros and ones, making it useful for feature extraction.
 
 Additionally, we discuss converting interval or ratio data into categorical data. The cut() function in pandas is used to divide data into equal-sized bins. We apply this to average county population data by state, generating categorical labels representing the states' average county sizes.
+# Merging DataFrames
+First, we discuss merging data horizontally using the merge() function. We use a Venn diagram to understand the concepts of union and intersection. In pandas, merging horizontally is done by specifying the left and right DataFrames and indicating the join type. We explore different types of joins such as inner join, outer join, left join, and right join, depending on the desired data combination. The merge operation can be performed based on index values or specific columns.
+
+Next, we move on to concatenating data vertically using the concat() function. We consider an example where we have separate CSV files representing data for different years. We create individual DataFrames for each year and store them in a list. By passing the list to the concat() function, we vertically concatenate the DataFrames, combining the data from all years. This allows us to stack the dataframes on top of each other.
+
+We discuss the option of using keys to maintain the identification of data from different sources. By setting the keys parameter in concat(), we assign an additional level of indices that corresponds to each DataFrame's source.
+
+It is important to note that merging and concatenating datasets can result in NaN values when columns don't align or when data is missing. We mention the inner and outer methods, where inner removes NaN values by dropping observations, while outer retains NaN values in the resulting DataFrame.
 
    
                                                                                                                                   
