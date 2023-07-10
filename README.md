@@ -203,7 +203,17 @@ In this code, we use the pandas library to work with a university ranking datase
 Next, we create a pivot table to compare rank levels with countries, focusing on the overall scores. The pivot table aggregates the mean score for each country and rank level using the pivot_table() function. We observe a hierarchical DataFrame where countries are the rows, rank levels are the columns, and the mean scores are the values. NaN values indicate that some countries only have observations in the "Other Top Universities" category.
 
 To expand the pivot table, we can include multiple aggregation functions by passing a list of functions to the aggfunc parameter. In this case, we add the np.max function to calculate the maximum score for each country and rank level.
+In this code, we further explore the pivot table created earlier. By setting margins=True in the pivot_table() function, we include an additional row and column called "All" that shows the overall mean and maximum scores.
 
+The resulting pivot table, stored in the new_df DataFrame, has a multi-level structure. We can access series or cells in the pivot table similar to a regular DataFrame. For example, to retrieve the average scores of First Tier Top Universities in each country, we use new_df['mean']['First Tier Top University']. This will return a series object containing the average scores.
+
+By applying the idxmax() function to the series, we can find the country with the maximum average score for First Tier Top Universities using new_df['mean']['First Tier Top University'].idxmax(). The idxmax() function retrieves the index label corresponding to the maximum value.
+
+It's important to note that idxmax() is not specific to pivot tables but is a built-in function for Series objects. The pandas library provides a wide range of functions and attributes to explore further for data manipulation and analysis.
+
+If you want to reshape the pivot table, the stack and unstack functions are available. Stacking pivots the lowest column index to become the innermost row index, while unstacking is the inverse operation, pivoting the innermost row index to become the lowest column index.
+
+Overall, the pivot table provides a versatile way to analyze data across multiple dimensions, and by leveraging pandas functions and methods, we can extract specific information from the pivot table for further analysis or exploration.
 
    
                                                                                                                                   
