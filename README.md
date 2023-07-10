@@ -232,6 +232,21 @@ Next, we move on to concatenating data vertically using the concat() function. W
 We discuss the option of using keys to maintain the identification of data from different sources. By setting the keys parameter in concat(), we assign an additional level of indices that corresponds to each DataFrame's source.
 
 It is important to note that merging and concatenating datasets can result in NaN values when columns don't align or when data is missing. We mention the inner and outer methods, where inner removes NaN values by dropping observations, while outer retains NaN values in the resulting DataFrame.
+# GroupBy
+The groupby() function in pandas allows us to perform operations on data based on groups. It follows a split-apply-combine approach, where the data is split into groups, operations are applied to each group, and the results are combined.
 
+To split the data, we specify the column or columns we want to group by. For example, we can group data by states in a census dataset. The groupby() function creates a GroupBy object that represents the grouped data.
+
+Next, we can apply different operations to the groups. One common operation is aggregation, where we calculate summary statistics for each group. For example, we can find the average population of counties in each state. We use the agg() method on the GroupBy object and pass a dictionary specifying the columns and functions we want to apply.
+
+Another operation is transformation, where we apply a function to each group and create a new DataFrame with the same shape as the original. This allows us to perform calculations within each group. We use the transform() method on the GroupBy object to achieve this.
+
+We can also filter groups based on certain conditions using the filter() function. This allows us to include or exclude groups based on specific criteria.
+
+Finally, we have the apply() function, which allows us to apply custom functions to each group. This gives us more flexibility in performing operations on the grouped data.
+
+Using groupby(), we can efficiently analyze data on a group level without having to iterate over individual rows, which can be slow and inefficient.
+
+In summary, the groupby() function in pandas provides a powerful tool for grouping data, applying operations, and obtaining aggregated or transformed results on a group level. It simplifies the process of analyzing and summarizing data based on specific categories or criteria.
    
                                                                                                                                   
