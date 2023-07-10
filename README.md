@@ -190,6 +190,11 @@ This code snippet utilizes the pandas library for movie data analysis. It begins
 Next, the response data is converted into a DataFrame using pandas with the command temp_df = pd.DataFrame(response.json()['results']). This DataFrame consists of columns like 'id', 'title', 'overview', 'release_date', 'popularity', 'vote_average', and 'vote_count'. The specific columns are selected using double square brackets [['id','title','overview','release_date','popularity','vote_average','vote_count']].
 
 Finally, to display the first few rows of the DataFrame, the code temp_df.head() should be used. However, in the given paragraph, there is a mistake where df.head() is used instead of temp_df.head(). The correct command to display the first few rows of the DataFrame should be temp_df.head(). In summary, this code fetches movie data from a web API, converts it into a DataFrame, selects specific columns, and displays the initial rows of the DataFrame for analysis or visualization.
+In this code, we begin by creating an empty DataFrame using the command df = pd.DataFrame(). Then, a loop is initiated using the range function from 1 to 429 (exclusive). Within each iteration, a GET request is made to the Movie Database API to retrieve a list of top-rated movies for a specific page. The page number is inserted into the URL using the .format(i) method. The response is stored in the response variable.
+
+Similar to before, the response data is converted into a DataFrame named temp_df. This DataFrame consists of columns like 'id', 'title', 'overview', 'release_date', 'popularity', 'vote_average', and 'vote_count', which are selected using double square brackets [['id','title','overview','release_date','popularity','vote_average','vote_count']].
+
+The df.append(temp_df, ignore_index=True) command appends the data from temp_df to the existing DataFrame df, with ignore_index=True ensuring the index is reset for the combined DataFrame.
 
 
 
