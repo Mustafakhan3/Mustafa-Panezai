@@ -214,6 +214,17 @@ It's important to note that idxmax() is not specific to pivot tables but is a bu
 If you want to reshape the pivot table, the stack and unstack functions are available. Stacking pivots the lowest column index to become the innermost row index, while unstacking is the inverse operation, pivoting the innermost row index to become the lowest column index.
 
 Overall, the pivot table provides a versatile way to analyze data across multiple dimensions, and by leveraging pandas functions and methods, we can extract specific information from the pivot table for further analysis or exploration.
+# Scales
+In this code snippet, we work with different techniques for categorical data in pandas.
 
+First, we create a DataFrame called df that represents letter grades, with an additional index indicating the quality of a student's performance. We check the data type of the 'Grades' column and observe that it is an object. To change the data type to a categorical variable, we use the astype() function, specifying the type as 'category'.
+
+We notice that the grades have a natural ordering, so we create a new categorical data type, my_categories, with the categories in order. We then use astype() again to convert the 'Grades' column to this ordered categorical type.
+
+The ordered categorical type allows for proper comparisons and Boolean masking. We demonstrate this by comparing grades to "C" using the lexicographical comparison and the ordered categorical comparison. The latter produces the expected results.
+
+We also explore the concept of dummy variables, which represent categorical values as binary columns indicating the presence of a category. The get_dummies() function in pandas converts a single column into multiple columns of zeros and ones, which can be useful in feature extraction.
+
+Additionally, we discuss the process of converting interval or ratio data into categorical data. The cut() function in pandas is used to divide the data into bins of equal spacing. We apply this function to average county population data by state, resulting in categorical labels representing the states' average county sizes.
    
                                                                                                                                   
