@@ -215,16 +215,15 @@ If you want to reshape the pivot table, the stack and unstack functions are avai
 
 Overall, the pivot table provides a versatile way to analyze data across multiple dimensions, and by leveraging pandas functions and methods, we can extract specific information from the pivot table for further analysis or exploration.
 # Scales
-In this code snippet, we work with different techniques for categorical data in pandas.
+In this code, we work with categorical data in pandas.
 
-First, we create a DataFrame called df that represents letter grades, with an additional index indicating the quality of a student's performance. We check the data type of the 'Grades' column and observe that it is an object. To change the data type to a categorical variable, we use the astype() function, specifying the type as 'category'.
+We start by creating a DataFrame with letter grades and an index indicating students' performance. Initially, the grades are treated as simple text strings. To work with them more effectively, we convert the 'Grades' column to a special categorical data type using the astype() function.
 
-We notice that the grades have a natural ordering, so we create a new categorical data type, my_categories, with the categories in order. We then use astype() again to convert the 'Grades' column to this ordered categorical type.
+By converting the grades to an ordered categorical type, we establish a natural ordering. This allows for correct comparisons and Boolean masking. We demonstrate this by comparing grades using both lexicographical comparison and the categorical comparison, which produces the expected results.
 
-The ordered categorical type allows for proper comparisons and Boolean masking. We demonstrate this by comparing grades to "C" using the lexicographical comparison and the ordered categorical comparison. The latter produces the expected results.
+Next, we explore the concept of dummy variables. These are binary columns that indicate the presence or absence of a category. The get_dummies() function in pandas converts a single column into multiple columns of zeros and ones, making it useful for feature extraction.
 
-We also explore the concept of dummy variables, which represent categorical values as binary columns indicating the presence of a category. The get_dummies() function in pandas converts a single column into multiple columns of zeros and ones, which can be useful in feature extraction.
+Additionally, we discuss converting interval or ratio data into categorical data. The cut() function in pandas is used to divide data into equal-sized bins. We apply this to average county population data by state, generating categorical labels representing the states' average county sizes.
 
-Additionally, we discuss the process of converting interval or ratio data into categorical data. The cut() function in pandas is used to divide the data into bins of equal spacing. We apply this function to average county population data by state, resulting in categorical labels representing the states' average county sizes.
    
                                                                                                                                   
