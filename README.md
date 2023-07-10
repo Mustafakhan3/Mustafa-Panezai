@@ -248,5 +248,16 @@ Finally, we have the apply() function, which allows us to apply custom functions
 Using groupby(), we can efficiently analyze data on a group level without having to iterate over individual rows, which can be slow and inefficient.
 
 In summary, the groupby() function in pandas provides a powerful tool for grouping data, applying operations, and obtaining aggregated or transformed results on a group level. It simplifies the process of analyzing and summarizing data based on specific categories or criteria.
-   
+   # Basic Understanding of data
+   pd.read_csv('datasets/titanic.csv'): This command reads a CSV file named 'titanic.csv' and loads it into a pandas DataFrame called 'df'. The DataFrame is a tabular data structure that allows you to work with the data in a convenient way.
+
+df.shape: This command returns the dimensions of the DataFrame, i.e., the number of rows and columns. It gives you an idea of how many data points and variables are present in the dataset.
+
+df.info(): This command provides information about the DataFrame, including the column names, the data type of each column, and the number of non-null values. It also gives you an overview of the memory usage.
+
+df.isnull().sum(): This command calculates the number of missing values in each column of the DataFrame. It returns a series that shows the count of null values for each column. It helps identify which columns have missing data.
+
+df.duplicated().sum(): This command counts the number of duplicated rows in the DataFrame. Duplicated rows are those that have identical values across all columns. It helps identify and handle duplicate records in the dataset.
+
+df.corr(): This command calculates the correlation between the numeric columns in the DataFrame. Correlation measures the strength and direction of the linear relationship between two variables. The result is a correlation matrix, which shows the correlation coefficients between each pair of numeric columns. It helps identify relationships and dependencies between variables.
                                                                                                                                   
