@@ -185,6 +185,15 @@ df.head()
 df.loc['school1']['Name'].the .loc alos supports slicing.If we wanted to select all rows, we can use a colon to indicate a full slice from beginning to end. df.loc[:,['Name', 'runs']].let's talk about dropping data.it's easy to delete data in series and dataframes we can use the drop function to drop data from it.df.drop('school1').we can make the copy of the dataframe using .copy() function.copy_df = df.copy().we can also add a new colomn to the dataframe is as easy as assigning it to the value using the indexing operator.df['ClassRanking'] = None
 # Fetching Data Through API
 
-   The provided code snippet demonstrates the usage of the pandas library for data analysis on movie data obtained from the Movie Database API. Firstly, the necessary libraries, pandas and requests, are imported. Then, a GET request is made to the API endpoint, retrieving a list of top-rated movies. The response object contains the data returned by the API. The code converts the JSON data into a pandas DataFrame and selects specific columns, including 'id', 'title', 'overview', 'release_date', 'popularity', 'vote_average', and 'vote_count'. The resulting DataFrame, assigned to the variable temp_df, represents the extracted movie information. However, there appears to be an error in the last line, as it tries to display the first few rows using df.head(), but the DataFrame is actually named temp_df. In summary, this code provides an example of how to fetch and analyze movie data using the Movie Database API and pandas, showcasing the process of retrieving, transforming, and selecting relevant information for further analysis or display.
+This code snippet utilizes the pandas library for movie data analysis. It begins by importing the pandas and requests libraries using the command import pandas as pd and import requests, respectively. Then, a GET request is made to the Movie Database API to retrieve a list of top-rated movies. The response is stored in the response variable through the command response = requests.get('https://api.themoviedb.org/3/movie/top_rated?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US&page=1').
+
+Next, the response data is converted into a DataFrame using pandas with the command temp_df = pd.DataFrame(response.json()['results']). This DataFrame consists of columns like 'id', 'title', 'overview', 'release_date', 'popularity', 'vote_average', and 'vote_count'. The specific columns are selected using double square brackets [['id','title','overview','release_date','popularity','vote_average','vote_count']].
+
+Finally, to display the first few rows of the DataFrame, the code temp_df.head() should be used. However, in the given paragraph, there is a mistake where df.head() is used instead of temp_df.head(). The correct command to display the first few rows of the DataFrame should be temp_df.head(). In summary, this code fetches movie data from a web API, converts it into a DataFrame, selects specific columns, and displays the initial rows of the DataFrame for analysis or visualization.
+
+
+
+
+
    
                                                                                                                                   
