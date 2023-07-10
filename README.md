@@ -1,5 +1,4 @@
 
-
 <h1 align="center">Hi 👋, I'm Mustafa Panezai</h1>
 <h3 align="center">Student and A passionate frontend developer from Pakistan</h3>
 <img align ="center" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
@@ -21,6 +20,7 @@
 
 
 <p>&nbsp;<img  src="https://github-readme-stats.vercel.app/api?username=mustafakhan3&show_icons=true&locale=en" alt="mustafakhan3" /></p>
+
 
 <h1>  Introduction to datascience </h1>
    <p> Data-science is a collection of  scientific methods and processes It is a combination of mathematics, statistics, computer science, and domain knowledge. data science is used to gain data about a specific topic .</p>
@@ -183,6 +183,8 @@ df.head()
  operations together. For instance, we can select all of the rows which related to school1 using
  .loc, then project the name column from just those rows
 df.loc['school1']['Name'].the .loc alos supports slicing.If we wanted to select all rows, we can use a colon to indicate a full slice from beginning to end. df.loc[:,['Name', 'runs']].let's talk about dropping data.it's easy to delete data in series and dataframes we can use the drop function to drop data from it.df.drop('school1').we can make the copy of the dataframe using .copy() function.copy_df = df.copy().we can also add a new colomn to the dataframe is as easy as assigning it to the value using the indexing operator.df['ClassRanking'] = None
-   
+# Fetching Data Through API
+
+   The provided code snippet demonstrates the usage of the pandas library for data analysis on movie data obtained from the Movie Database API. Firstly, the necessary libraries, pandas and requests, are imported. Then, a GET request is made to the API endpoint, retrieving a list of top-rated movies. The response object contains the data returned by the API. The code converts the JSON data into a pandas DataFrame and selects specific columns, including 'id', 'title', 'overview', 'release_date', 'popularity', 'vote_average', and 'vote_count'. The resulting DataFrame, assigned to the variable temp_df, represents the extracted movie information. However, there appears to be an error in the last line, as it tries to display the first few rows using df.head(), but the DataFrame is actually named temp_df. In summary, this code provides an example of how to fetch and analyze movie data using the Movie Database API and pandas, showcasing the process of retrieving, transforming, and selecting relevant information for further analysis or display.
    
                                                                                                                                   
