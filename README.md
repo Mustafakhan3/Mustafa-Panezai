@@ -197,7 +197,12 @@ Similar to before, the response data is converted into a DataFrame named temp_df
 The df.append(temp_df, ignore_index=True) command appends the data from temp_df to the existing DataFrame df, with ignore_index=True ensuring the index is reset for the combined DataFrame.
 
 
+# Pivot Tables
+In this code, we use the pandas library to work with a university ranking dataset. After loading the dataset into a DataFrame, we create a new column called 'Rank_Level' based on the 'world_rank' column. We categorize universities into tiers based on their rankings using if/elif statements.
 
+Next, we create a pivot table to compare rank levels with countries, focusing on the overall scores. The pivot table aggregates the mean score for each country and rank level using the pivot_table() function. We observe a hierarchical DataFrame where countries are the rows, rank levels are the columns, and the mean scores are the values. NaN values indicate that some countries only have observations in the "Other Top Universities" category.
+
+To expand the pivot table, we can include multiple aggregation functions by passing a list of functions to the aggfunc parameter. In this case, we add the np.max function to calculate the maximum score for each country and rank level.
 
 
    
