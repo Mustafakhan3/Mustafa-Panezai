@@ -285,6 +285,36 @@ df['Survived'].value_counts().plot(kind='bar'): This command creates a bar plot 
 
 df['Sex'].value_counts().plot(kind='pie', autopct='%.2f'): This command creates a pie chart to visualize the proportions of different categories in the 'Sex' column. It helps show the relative frequencies of categorical data.
 
-sns.histplot(df['Age'], bins=10): This command creates a histogram to visualize the distribution of values in the 'Age' column. It helps understand the spread and frequency of numerical data.
 
-sns.boxplot(df['Age']): This command creates a boxplot to visualize the distribution and identify outliers in the 'Age' column. It helps understand the range, median, and quartiles of numerical data.
+# Bivariate analysis
+
+Importing libraries:
+
+import pandas as pd: Imports the pandas library and assigns it the alias pd.
+import seaborn as sns: Imports the seaborn library and assigns it the alias sns.
+Loading datasets:
+
+tips = sns.load_dataset('tips'): Loads the 'tips' dataset from the seaborn library into a pandas DataFrame called tips.
+titanic = pd.read_csv('datasets/titanic.csv'): Reads a CSV file called 'titanic.csv' into a pandas DataFrame called titanic.
+flights = sns.load_dataset('flights'): Loads the 'flights' dataset from the seaborn library into a pandas DataFrame called flights.
+iris = sns.load_dataset('iris'): Loads the 'iris' dataset from the seaborn library into a pandas DataFrame called iris.
+Scatter Plot:
+
+sns.scatterplot(...): Creates a scatter plot using the 'total_bill' column as the x-axis, the 'tip' column as the y-axis, differentiating points by 'smoker' using color, differentiating points by 'sex' using different marker styles, and scaling the points by 'size'.
+Bar Plot:
+
+sns.barplot(...): Creates a bar plot using the 'Pclass' column as the x-axis, the 'Age' column as the y-axis, differentiating bars by 'Sex' using color.
+Box Plot:
+
+sns.boxplot(...): Creates a box plot using the 'Sex' column as the x-axis, the 'Age' column as the y-axis, differentiating boxes by 'Survived' using color.
+Distribution Plots:
+
+sns.distplot(...): Creates a distribution plot (combining histogram and kernel density estimate) for the 'Age' column, separating the data based on whether 'Survived' is 0 or 1.
+sns.displot(...): Creates a distribution plot (kernel density estimate) for the 'Age' column, separating the data based on whether 'Survived' is 0 or 1. Additionally, the 'Pclass' column is used to show different distributions using hue.
+sns.kdeplot(...): Creates a kernel density estimate plot for the 'Age' column, separating the data based on whether 'Survived' is 0 or 1. The 'Pclass' column is used to differentiate the plots.
+Cluster Map:
+
+sns.clustermap(...): Creates a cluster map by computing a cross-tabulation between the 'Parch' and 'Survived' columns in the titanic DataFrame.
+Line Plot:
+
+sns.lineplot(...): Creates a line plot using the 'year' column as the x-axis and the 'passengers' column as the y-axis. The data is derived from the flights DataFrame, grouped by 'year' and summed.
