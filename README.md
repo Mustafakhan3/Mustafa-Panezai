@@ -337,3 +337,20 @@ Box Plot: Illustrates the distribution of values based on the five-number summar
 Bar Chart: Uses rectangular bars to represent categorical data, allowing comparison of values across different categories.
 Pie Chart: Divides a circular plot into slices to show numerical proportions, although it is generally recommended to avoid using them due to difficulties in comparing sections.
 The text also briefly mentions the usage of the matplotlib.pyplot subpackage, providing some basic functions such as plt.title(), plt.xlabel(), plt.ylabel(), plt.xticks(), and plt.yticks() to customize the plot titles, axis labels, and tick values.
+
+
+# Machine learning
+Machine Learning:
+Machine learning is a branch of artificial intelligence (AI) that focuses on developing algorithms and models that enable computers to learn and make predictions or decisions without being explicitly programmed. Instead of following predefined rules, machine learning algorithms learn patterns and insights from data and use them to make predictions or take actions.
+
+In simple words, machine learning is like teaching a computer to learn from examples and data so that it can perform tasks or make predictions on its own, without being explicitly programmed for each specific task.
+
+Types of Machine Learning:
+
+Supervised Learning: In supervised learning, the algorithm learns from labeled examples, where the input data is paired with corresponding desired outputs. The algorithm learns to generalize from these examples and make predictions on new, unseen data. Examples of supervised learning algorithms include linear regression, decision trees, and support vector machines.
+
+Unsupervised Learning: In unsupervised learning, the algorithm learns from unlabeled data, where there are no predefined outputs. The goal is to discover patterns, structures, or relationships in the data. Unsupervised learning algorithms can be used for tasks such as clustering, dimensionality reduction, and anomaly detection. Examples include k-means clustering, principal component analysis (PCA), and generative adversarial networks (GANs).
+
+Reinforcement Learning: Reinforcement learning involves an agent learning how to make decisions and take actions in an environment to maximize a reward or achieve a specific goal. The agent interacts with the environment, learns from feedback (rewards or penalties), and adjusts its actions to optimize its performance over time. Reinforcement learning is often used in areas such as robotics, game playing, and autonomous systems. Examples include Q-learning, deep Q-networks (DQN), and policy gradient methods.
+
+
