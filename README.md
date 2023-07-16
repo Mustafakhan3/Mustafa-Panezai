@@ -353,4 +353,23 @@ Unsupervised Learning: In unsupervised learning, the algorithm learns from unlab
 
 Reinforcement Learning: Reinforcement learning involves an agent learning how to make decisions and take actions in an environment to maximize a reward or achieve a specific goal. The agent interacts with the environment, learns from feedback (rewards or penalties), and adjusts its actions to optimize its performance over time. Reinforcement learning is often used in areas such as robotics, game playing, and autonomous systems. Examples include Q-learning, deep Q-networks (DQN), and policy gradient methods.
 
+# Linear Regression
+The code defines a class called MeraLR, which stands for "My Linear Regression." This class represents a linear regression model.
+
+The MeraLR class has three main methods: __init__, fit, and predict.
+
+The __init__ method initializes the model's variables m and b to None. These variables will later hold the slope and intercept of the linear regression line.
+
+The fit method is used to train the model. It takes in training data X_train (independent variable) and y_train (dependent variable). It calculates the slope m and intercept b of the line by iterating through the training data points and applying mathematical formulas. The formulas calculate the numerator (num) and denominator (den) of the slope equation and then divide them to obtain the slope. The intercept is calculated using the mean values of X_train and y_train. Finally, the slope and intercept are stored in self.m and self.b, respectively.
+
+The predict method takes in test data X_test and predicts the corresponding y values using the learned slope and intercept. It multiplies X_test by the slope m, adds the intercept b, and returns the predicted y value.
+
+The code also imports necessary libraries (numpy and pandas) and reads data from a CSV file into a DataFrame (df). It then extracts the X and y values from the DataFrame for further processing.
+
+Next, the code splits the data into training and testing sets using the train_test_split function from the sklearn.model_selection module. It randomly shuffles and divides the data into 80% for training (X_train and y_train) and 20% for testing (X_test and y_test).
+
+After that, an instance of the MeraLR class named lr is created. The fit method is called on this instance, passing the training data (X_train and y_train). During the fitting process, the slope and intercept of the linear regression line are calculated and printed.
+
+Finally, the code prints the shape of X_train, a specific value from X_train, the mean value of X_train, a specific value from X_test, and the prediction for that specific value using the predict method of the lr object.
+
 
