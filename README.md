@@ -318,3 +318,22 @@ sns.clustermap(...): Creates a cluster map by computing a cross-tabulation betwe
 Line Plot:
 
 sns.lineplot(...): Creates a line plot using the 'year' column as the x-axis and the 'passengers' column as the y-axis. The data is derived from the flights DataFrame, grouped by 'year' and summed.
+
+ # Data Visualization
+Basic Visualization Rules:
+
+Choose the appropriate plot type.
+Label your axes.
+Add a title.
+Label different categories.
+Optionally, add text or arrows at interesting data points.
+Use sizes and colors to convey additional information.
+Types of Visualizations:
+
+Line Plot: Displays data points connected by straight lines to show trends over time.
+Scatter Plot: Shows individual data points without connecting lines, useful for comparing two variables.
+Histogram: Represents the distribution of numeric data by dividing values into intervals (bins) and counting the number of values falling into each bin.
+Box Plot: Illustrates the distribution of values based on the five-number summary (minimum, first quartile, median, third quartile, maximum), and can identify outliers.
+Bar Chart: Uses rectangular bars to represent categorical data, allowing comparison of values across different categories.
+Pie Chart: Divides a circular plot into slices to show numerical proportions, although it is generally recommended to avoid using them due to difficulties in comparing sections.
+The text also briefly mentions the usage of the matplotlib.pyplot subpackage, providing some basic functions such as plt.title(), plt.xlabel(), plt.ylabel(), plt.xticks(), and plt.yticks() to customize the plot titles, axis labels, and tick values.
